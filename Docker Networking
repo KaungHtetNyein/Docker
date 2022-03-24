@@ -1,0 +1,9 @@
+#nano /etc/zabbix/zabbix-agent.conf
+
+You have to configure zabbix-agent
+Server= Zabbix Container IP
+ServerActive= Zabbix Container Ip
+Hostname= Operation System Hostname
+
+You can see Docker Container  IP Address by using below command. 
+# docker inspect Containername
