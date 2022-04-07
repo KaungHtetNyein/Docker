@@ -10,7 +10,7 @@ services:
       - "8080:80"
     volumes:
       - ./websites:/usr/share/nginx/html/
-    depends_on:
+https://github.com/KaungHtetNyein/Docker/blob/main/Docker-Compose.yml    depends_on:
       - db
     links:
       - db
